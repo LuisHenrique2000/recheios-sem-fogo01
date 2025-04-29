@@ -1,5 +1,5 @@
 from flask import Flask
-from routes.public import public_bp
+from src.routes.public import public_bp
 from routes.admin import admin_bp
 
 def create_app():
